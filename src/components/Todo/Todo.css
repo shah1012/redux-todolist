@@ -1,0 +1,49 @@
+.todo-div {
+  width: 100%;
+  background: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+
+  margin-bottom: 5px;
+}
+
+.todo-li {
+  color: white;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+
+  flex: 1;
+}
+
+.todo-trash {
+  background-color: red;
+}
+.todo-check {
+  background-color: rgb(34, 126, 34);
+}
+
+.todo-trash,
+.todo-check {
+  color: rgb(250, 224, 224);
+  padding: 4px 5px;
+  margin: 0 5px;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.25s ease-in-out;
+}
+
+.todo-check:hover {
+  background-color: darkgreen;
+}
+
+.todo-trash:hover {
+  background-color: darkred;
+}
